@@ -64,7 +64,7 @@ font-size: ${props => props.activeFontSizeId}px;
 font-weight: 600;
 font-family: 'Open Sans';
 `
-export const MemeGeneratorForm =styled.form`
+export const MemeGeneratorForm = styled.form`
 display: flex;
 flex-direction: column;
 justify-content: space-between;

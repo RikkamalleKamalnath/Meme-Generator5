@@ -132,8 +132,7 @@ class MemeGenerator extends Component {
     )
   }
   renderMeme = () => {
-    const {backgroundImageUrl, topText, bottomText, activeFontSizeId
-    } =
+    const {backgroundImageUrl, topText, bottomText, activeFontSizeId} =
       this.state
     return (
       <MemeContainer data-testid="meme" backgroundImage={backgroundImageUrl}>
